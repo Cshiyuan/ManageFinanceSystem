@@ -9,13 +9,19 @@
 using namespace std;
 int main()
 {
-	Item t("sdsd");
-	t.Addnext("sdsd1");
-	t.Addnext("sasa2");
+	Item t1("0010");
+	t1.Addnext("0011");
+	t1.Addnext("0012");
+
+	Item t2("0020");
+	t2.Addnext("0021");
+
 	Item_MS m;
-	m.Item_MSadd(t);
-	m.Item_MSadd(t);
-	m.Item_MSadd(t);
-	m.Item_Msdel(1);
+	m.Item_MSadd(t1);
+	m.Item_MSadd(t2);
+
+	Item *prt;
+	prt=m.search("0031");
+
 	return 0;
 }

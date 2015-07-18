@@ -7,7 +7,12 @@ public:
 	Item_MS();
 	~Item_MS();
 	void Item_MSadd(Item t);  // 添加项目
-	void Item_Msdel(int num);  // 删除项目
+
+	//根据项目名字来修改
+	void Item_Msdel(char *c);  // 删除项目
+	void changemoney(char *c, double money);  // 修改项目的金额
+	void changename(char *c, char *name);  // 修改项目的名字
+
 
 	Item * search(char *name);  // 根据项目的名字返回指向这个项目的指针
 private:

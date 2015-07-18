@@ -13,6 +13,7 @@ public:
 
 	void Addconsumption(int key, double money);  // 根据key，添加成员在项目的消费
 	void Addnext(const char *name);  // 增加下一层的项目
+
 	void changename(const char *name);  // 修改项目的名字
 	void changemoney(const double money);  // 修改项目的金额
 
