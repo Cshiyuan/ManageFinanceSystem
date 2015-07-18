@@ -18,12 +18,17 @@ public:
 	void changemoney(const double money);  // 修改项目的金额
 
 	void delitem();  // 删除项目  // 也就是将note置为1
+
 	int getnote();  // 获得删除标记
 	int getnextnumber();  // 获得项目下层的项目数
+
 	char *getname();  // 获得项目的名字
+	double getmoney();  // 获得金额
 
     Item *next[MAXc];   // 下一层的收支项目，没有下一层则为NULL  //对应的为nextnumber
 	                    // 指针数组
+
+	
 private:
 	
 	char name[50];   // 项目名字

@@ -39,6 +39,9 @@
     <ClInclude Include="Item_MS.h">
       <Filter>头文件</Filter>
     </ClInclude>
+    <ClInclude Include="Login_MS.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="stdafx.cpp">
@@ -60,6 +63,9 @@
       <Filter>源文件</Filter>
     </ClCompile>
     <ClCompile Include="Item_MS.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Login_MS.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
   </ItemGroup>

@@ -13,6 +13,7 @@ public:
 	void changemoney(char *c, double money);  // 修改项目的金额
 	void changename(char *c, char *name);  // 修改项目的名字
 
+	void show(int number);  // 输出项目数组中的信息，包括其下层项目
 
 	Item * search(char *name);  // 根据项目的名字返回指向这个项目的指针
 private:

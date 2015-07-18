@@ -91,3 +91,7 @@ void Item_MS::changename(char *c, char *name)  // 修改项目的名字
 	ptr = search(c);
 	ptr->changename(name);
 }
+void Item_MS::show(int number)  // 输出项目的信息，包括其下层信息
+{
+	cout << "  " << items[number].getname() << "  金额:  " << items[number].getmoney() << endl;
+}

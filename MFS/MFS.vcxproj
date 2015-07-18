@@ -82,6 +82,7 @@
     <ClInclude Include="Bdata.h" />
     <ClInclude Include="Item.h" />
     <ClInclude Include="Item_MS.h" />
+    <ClInclude Include="Login_MS.h" />
     <ClInclude Include="MDataBase.h" />
     <ClInclude Include="Member.h" />
     <ClInclude Include="stdafx.h" />
@@ -91,6 +92,7 @@
     <ClCompile Include="Bdata.cpp" />
     <ClCompile Include="Item.cpp" />
     <ClCompile Include="Item_MS.cpp" />
+    <ClCompile Include="Login_MS.cpp" />
     <ClCompile Include="MDataBase.cpp" />
     <ClCompile Include="Member.cpp" />
     <ClCompile Include="MFS.cpp" />
